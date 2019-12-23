@@ -20,8 +20,8 @@ const mathQuill = MathQuill.getInterface(2);
 type EquationEditorProps = {
   onChange(latex: string): void;
   value: string;
-  autoCommands: string,
-  autoOperatorNames: string
+  autoCommands: string;
+  autoOperatorNames: string;
 };
 
 class EquationEditor extends Component<EquationEditorProps> {
@@ -63,7 +63,7 @@ class EquationEditor extends Component<EquationEditorProps> {
   }
 
   render() {
-    return <span ref={this.element} />;
+    return <span className="douwe" ref={this.element} style={{ border: "0px", boxShadow: "None" }} />;
   }
 }
 

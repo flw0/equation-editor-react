@@ -1,6 +1,13 @@
-# React Equation Editor
+# TypeScript React Equation Editor
 
-**By [Douwe den Blanken](https://nl.linkedin.com/in/douwedenblanken) ([v0xnihili](https://github.com/V0XNIHILI/))**
+**By [Douwe den Blanken](https://nl.linkedin.com/in/douwedenblanken)
+([v0xnihili](https://github.com/V0XNIHILI/))**
+
+## Demo
+
+To see this repository in action, a demo is available
+[here](https://v0xnihili.github.io/typescript-react-equation-editor/). It is possible to type
+equations here and see the output in LaTeX below it.
 
 ## How to use
 
@@ -26,6 +33,7 @@ const Example = () => {
     />
   )
 }
+
 ```
 
 Below, you can find the actual code that power the equation editor (`src/components/EquationEditor/EquationEditor.tsx`). When using this snippet in your
@@ -57,8 +65,8 @@ const mathQuill = MathQuill.getInterface(2);
 type EquationEditorProps = {
   onChange(latex: string): void;
   value: string;
-  autoCommands: string,
-  autoOperatorNames: string
+  autoCommands: string;
+  autoOperatorNames: string;
 };
 
 class EquationEditor extends Component<EquationEditorProps> {
@@ -100,9 +108,10 @@ class EquationEditor extends Component<EquationEditorProps> {
   }
 
   render() {
-    return <span ref={this.element} />;
+    return <span className="douwe" ref={this.element} style={{ border: "0px", boxShadow: "None" }} />;
   }
 }
 
 export default EquationEditor;
+
 ```

@@ -14,7 +14,11 @@ const equationWrapperStyle: CSSProperties = {
   transform: "translate(-50%, -50%)"
 };
 
-const equationOutputStyle: CSSProperties = { fontSize: "16px", color: "rgb(232, 62, 140)" };
+const equationOutputStyle: CSSProperties = {
+  fontSize: "16px",
+  color: "rgb(232, 62, 140)",
+  textAlign: "center"
+};
 
 // Actual code -----------------------------------------------------------
 

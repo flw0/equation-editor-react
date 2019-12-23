@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/typescript-react-equation-editor/static/css/main.d1b05096.chunk.css",
-    "main.js": "/typescript-react-equation-editor/static/js/main.d0317089.chunk.js",
-    "main.js.map": "/typescript-react-equation-editor/static/js/main.d0317089.chunk.js.map",
+    "main.js": "/typescript-react-equation-editor/static/js/main.d406ed55.chunk.js",
+    "main.js.map": "/typescript-react-equation-editor/static/js/main.d406ed55.chunk.js.map",
     "runtime-main.js": "/typescript-react-equation-editor/static/js/runtime-main.2cad66d6.js",
     "runtime-main.js.map": "/typescript-react-equation-editor/static/js/runtime-main.2cad66d6.js.map",
     "static/css/2.90feef26.chunk.css": "/typescript-react-equation-editor/static/css/2.90feef26.chunk.css",
     "static/js/2.e4b0c700.chunk.js": "/typescript-react-equation-editor/static/js/2.e4b0c700.chunk.js",
     "static/js/2.e4b0c700.chunk.js.map": "/typescript-react-equation-editor/static/js/2.e4b0c700.chunk.js.map",
     "index.html": "/typescript-react-equation-editor/index.html",
-    "precache-manifest.19462335cf702512ceafd2f4c9f36b44.js": "/typescript-react-equation-editor/precache-manifest.19462335cf702512ceafd2f4c9f36b44.js",
+    "precache-manifest.b4c08c278e94abf09bb6fad46ebd5376.js": "/typescript-react-equation-editor/precache-manifest.b4c08c278e94abf09bb6fad46ebd5376.js",
     "service-worker.js": "/typescript-react-equation-editor/service-worker.js",
     "static/css/2.90feef26.chunk.css.map": "/typescript-react-equation-editor/static/css/2.90feef26.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/typescript-react-equation-editor/static/css/main.d1b05096.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.90feef26.chunk.css",
     "static/js/2.e4b0c700.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.d0317089.chunk.js"
+    "static/js/main.d406ed55.chunk.js"
   ]
 }

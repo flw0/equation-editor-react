@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb367149bdfe50df8f947a156c24ab42",
+    "revision": "1ec90aab0443eea3761397a41fa73b5c",
     "url": "/typescript-react-equation-editor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typescript-react-equation-editor/static/css/2.90feef26.chunk.css"
   },
   {
-    "revision": "14e894189f08734b3f45",
+    "revision": "5a160854db8f858781e9",
     "url": "/typescript-react-equation-editor/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typescript-react-equation-editor/static/js/2.e4b0c700.chunk.js.LICENSE"
   },
   {
-    "revision": "14e894189f08734b3f45",
-    "url": "/typescript-react-equation-editor/static/js/main.d0317089.chunk.js"
+    "revision": "5a160854db8f858781e9",
+    "url": "/typescript-react-equation-editor/static/js/main.d406ed55.chunk.js"
   },
   {
     "revision": "836441b643f654d67b10",

@@ -7,9 +7,7 @@
   "jsnext:main": "lib/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "pkg": "rollup -c",
-    "watch": "rollup -w"
+    "pkg": "rollup -c"
   },
   "repository": {
     "type": "git",

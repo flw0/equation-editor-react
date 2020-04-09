@@ -19,6 +19,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install Packages from Parent Module
         run: yarn
+      - name: Create NPM Package
+        run: yarn pkg
       - name: Install Packages
         run: yarn
         working-directory: ${{env.working-directory}}

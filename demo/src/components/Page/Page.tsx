@@ -2,7 +2,7 @@ import React, { useState, CSSProperties } from "react";
 
 // Import Equation Editor component --------------------------------------
 
-import EquationEditor from "../EquationEditor";
+import EquationEditor from "equation-editor-react";
 
 // Styling ---------------------------------------------------------------
 

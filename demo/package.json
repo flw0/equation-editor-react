@@ -1,22 +1,22 @@
 {
-  "name": "react-equation-editor",
-  "homepage": "https://flw0.github.io/react-equation-editor/",
+  "name": "equation-editor-react-demo",
+  "homepage": "https://flw0.github.io/equation-editor-react/",
   "version": "0.1.0",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@types/jest": "^24.0.0",
-    "@types/jquery": "^3.3.31",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "jquery": "^3.4.1",
-    "mathquill": "^0.10.1-a",
+    "equation-editor-react": "file:./../../equation-editor-react/",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
+    "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
   "scripts": {

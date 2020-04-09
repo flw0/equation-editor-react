@@ -19,7 +19,7 @@ the `autoOperatorNames` but then for operators.
 ```tsx
 import React, { useState } from "react";
 
-import EquationEditor from "../EquationEditor";
+import EquationEditor from "equation-editor-react";
 
 const Example = () => {
   const [equation, updateEquation] = useState("y=x");

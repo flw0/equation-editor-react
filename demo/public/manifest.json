@@ -1,6 +1,6 @@
 {
   "short_name": "React Equation Editor",
-  "name": "React Equation Editor in TypeScript",
+  "name": "React Equation Editor",
   "icons": [
     {
       "src": "favicon.ico",

@@ -6,7 +6,7 @@
 ## Demo
 
 To see this repository in action, a demo is available
-[here](https://flw0.github.io/react-equation-editor/). It is possible to type
+[here](https://flw0.github.io/equation-editor-react/). It is possible to type
 equations here and see the output in LaTeX below it.
 
 ## How to use

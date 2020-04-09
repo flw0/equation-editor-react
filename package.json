@@ -1,5 +1,5 @@
 {
-  "name": "react-equation-editor",
+  "name": "equation-editor-react",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -8,21 +8,34 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "pkg": "rollup -c"
+    "pkg": "rollup -c",
+    "watch": "rollup -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flw0/react-equation-editor.git"
+    "url": "git+https://github.com/flw0/equation-editor-react.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flw0/react-equation-editor/issues"
+    "url": "https://github.com/flw0/equation-editor-react/issues"
   },
-  "homepage": "https://github.com/flw0/react-equation-editor#readme",
-  "devDependencies": {
+  "resolutions": {
+    "jest": "24.9.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "8.1.0",
+    "webpack": "4.42.0",
+    "webpack-dev-server": "3.10.3"
+  },
+  "dependencies": {
     "@types/jquery": "^3.3.34",
+    "jquery": "^3.4.1",
+    "mathquill": "^0.10.1-a",
+    "react-qr-svg": "^2.2.1"
+  },
+  "homepage": "https://github.com/flw0/equation-editor-react#readme",
+  "devDependencies": {
     "@types/react": "^16.9.33",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -31,12 +44,11 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.2",
+    "rollup-plugin-scss": "^2.1.0",
     "rollup-plugin-typescript2": "^0.27.0",
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
-    "jquery": "^3.4.1",
-    "mathquill": "^0.10.1-a",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }

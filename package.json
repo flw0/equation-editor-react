@@ -1,7 +1,7 @@
 {
   "name": "equation-editor-react",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Equation editor for React web apps based on Mathquill",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
@@ -13,7 +13,18 @@
     "type": "git",
     "url": "git+https://github.com/flw0/equation-editor-react.git"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "mathematics",
+    "math",
+    "equations",
+    "demo",
+    "mathquill",
+    "react",
+    "latex",
+    "editor",
+    "equation-editor"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -36,7 +47,7 @@
     "mathquill": "^0.10.1-a",
     "react-qr-svg": "^2.2.1"
   },
-  "homepage": "https://github.com/flw0/equation-editor-react#readme",
+  "homepage": "https://flw0.github.io/equation-editor-react/",
   "devDependencies": {
     "@types/react": "^16.9.33",
     "react": "^16.13.1",

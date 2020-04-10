@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  deploy:
+  deploy-and-publish:
     runs-on: ubuntu-latest
     env:
       working-directory: ./demo
@@ -21,13 +21,22 @@ jobs:
         run: yarn
       - name: Create NPM Package
         run: yarn pkg
-      - name: Install Packages
+      - name: Publish if version has been updated
+        uses: pascalgn/npm-publish-action@4f4bf159e299f65d21cd1cbd96fc5d53228036df
+        with: # All of theses inputs are optional
+          tag_name: "v%s"
+          tag_message: "v%s"
+          commit_pattern: "^Release (\\S+)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this as is, it's automatically generated
+          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      - name: Install Packages for demo app
         run: yarn
         working-directory: ${{env.working-directory}}
-      - name: Build page
+      - name: Build demo app
         run: yarn build
         working-directory: ${{env.working-directory}}
-      - name: Deploy to gh-pages
+      - name: Deploy to demo app to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

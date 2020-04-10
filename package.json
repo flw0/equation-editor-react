@@ -1,6 +1,6 @@
 {
   "name": "equation-editor-react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
@@ -19,6 +19,10 @@
   "bugs": {
     "url": "https://github.com/flw0/equation-editor-react/issues"
   },
+  "files": [
+    "lib/*",
+    "src/*"
+  ],
   "resolutions": {
     "jest": "24.9.0",
     "babel-jest": "^24.9.0",

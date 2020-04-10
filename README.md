@@ -42,6 +42,10 @@ export default Example;
 
 ```
 
+<!-- ## Size
+
+Please see [BundlePhobia](https://bundlephobia.com/result?p=equation-editor-react). -->
+
 ## License
 
 [MIT](./LICENSE)

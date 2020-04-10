@@ -26,17 +26,24 @@ type EquationEditorProps = {
   autoOperatorNames: string;
 };
 
+/**
+ * @typedef {EquationEditorProps} props
+ * @prop {Function} onChange Triggered when content of the equation editor changes
+ * @prop {string} value Content of the equation handler
+ * @prop {string} autoCommands List of commands for which you only have to type the name of the
+ * command with a \ in front of it. Examples: pi theta rho sum
+ * @prop {string} autoOperatorNames List of operators for which you only have to type the name of the
+ * operator with a \ in front of it. Examples: sin cos tan
+ * @extends {Component<EquationEditorProps>}
+ */
 class EquationEditor extends Component<EquationEditorProps> {
   element: any;
   mathField: any;
   ignoreEditEvents: number;
 
-  /**
-   * Element needs to be in the class format and thus requires a constructor. The steps that are run
-   * in the constructor is to make sure that React can succesfully communicate with the equation
-   * editor.
-   * @param props Properties of this component
-   */
+  // Element needs to be in the class format and thus requires a constructor. The steps that are run
+  // in the constructor is to make sure that React can succesfully communicate with the equation
+  // editor.
   constructor(props: EquationEditorProps) {
     super(props);
 

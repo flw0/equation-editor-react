@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0364d7c6762eed36b107cfc46a7fd12",
+    "revision": "4ec1ba7698a5ccafa16047387b18a2f4",
     "url": "/equation-editor-react/index.html"
   },
   {
-    "revision": "f73b1f10a0769b76afe0",
+    "revision": "8356224046cf41a5093d",
     "url": "/equation-editor-react/static/css/2.42f066dc.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/equation-editor-react/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "f73b1f10a0769b76afe0",
-    "url": "/equation-editor-react/static/js/2.0a1755da.chunk.js"
+    "revision": "8356224046cf41a5093d",
+    "url": "/equation-editor-react/static/js/2.c52c7fbb.chunk.js"
   },
   {
     "revision": "bc51ad6b075e5b96cf9ad2ad3d22ac0d",
-    "url": "/equation-editor-react/static/js/2.0a1755da.chunk.js.LICENSE.txt"
+    "url": "/equation-editor-react/static/js/2.c52c7fbb.chunk.js.LICENSE.txt"
   },
   {
     "revision": "f8abb3a57a7f92c07bc1",

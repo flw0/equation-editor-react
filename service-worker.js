@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/equation-editor-react/precache-manifest.17d4045455b6fc1123fd347cbff5bc56.js"
+  "/equation-editor-react/precache-manifest.47a4fb66342539ecd0a659c4abd4aaf6.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,4 +1,4 @@
-name: Deployment
+name: Deployment and Publication
 on:
   push:
     branches:

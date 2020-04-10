@@ -23,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "rebuild": "rm -rf node_modules && rm -f yarn.lock && yarn"
   },
   "eslintConfig": {
     "extends": "react-app"

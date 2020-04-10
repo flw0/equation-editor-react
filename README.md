@@ -1,6 +1,14 @@
-<img src="demo/public/logo192.png" style="margin: auto; width: 192px; display: block; margin-top: 24px">
+<img src="demo/public/logo192.png" style="margin: auto; width: 192px; display: block; margin-top:
+24px">
+
 
 # Equation Editor for React Applications
+
+[![Version of package](https://badgen.net/npm/v/equation-editor-react)](https://www.npmjs.com/package/equation-editor-react)
+
+<!-- [![contributions
+welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/flw0/equation-editor-react/issues)
+[![Node version](https://img.shields.io/node/v/[equation-editor-react].svg?style=flat)](http://nodejs.org/download/) -->
 
 **By [Douwe den Blanken](https://nl.linkedin.com/in/douwedenblanken)
 ([v0xnihili](https://github.com/V0XNIHILI/))**

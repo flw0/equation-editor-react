@@ -23,13 +23,13 @@ const equationOutputStyle: CSSProperties = {
 // Actual code -----------------------------------------------------------
 
 const Page = () => {
-  const [equation, updateEquation] = useState("y=x");
+  const [equation, setEquation] = useState("y=x");
 
   return (
     <div style={equationWrapperStyle}>
       <EquationEditor
         value={equation}
-        onChange={updateEquation}
+        onChange={setEquation}
         autoCommands="pi theta sqrt sum prod alpha beta gamma rho sigma delta epsilon"
         autoOperatorNames="sin cos tan"
       />

@@ -1,6 +1,6 @@
 {
   "name": "equation-editor-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Equation editor for React web apps based on Mathquill",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
@@ -42,10 +42,8 @@
     "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
-    "@types/jquery": "^3.3.34",
     "jquery": "^3.4.1",
-    "mathquill": "^0.10.1-a",
-    "react-qr-svg": "^2.2.1"
+    "mathquill": "^0.10.1-a"
   },
   "homepage": "https://flw0.github.io/equation-editor-react/",
   "devDependencies": {
@@ -59,7 +57,8 @@
     "rollup-plugin-peer-deps-external": "^2.2.2",
     "rollup-plugin-scss": "^2.1.0",
     "rollup-plugin-typescript2": "^0.27.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@types/jquery": "^3.3.34"
   },
   "peerDependencies": {
     "react": "^16.0.0",

@@ -1,7 +1,9 @@
 import React, { Component, createRef } from "react";
 
+// Import JQuery, required for the functioning of the equation editor
 import $ from "jquery";
 
+// Import the styles from the Mathquill editor
 import "mathquill/build/mathquill.css";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
@@ -29,6 +31,12 @@ class EquationEditor extends Component<EquationEditorProps> {
   mathField: any;
   ignoreEditEvents: number;
 
+  /**
+   * Element needs to be in the class format and thus requires a constructor. The steps that are run
+   * in the constructor is to make sure that React can succesfully communicate with the equation
+   * editor.
+   * @param props Properties of this component
+   */
   constructor(props: EquationEditorProps) {
     super(props);
 

@@ -24,7 +24,6 @@ type EquationEditorProps = {
   value: string;
   autoCommands: string;
   autoOperatorNames: string;
-  color?: string;
 };
 
 /**

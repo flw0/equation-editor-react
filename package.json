@@ -1,12 +1,13 @@
 {
   "name": "equation-editor-react",
   "version": "0.0.6",
-  "description": "Equation editor for React web apps based on Mathquill",
+  "description": "Equation editor based on Mathquill for React web apps",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild": "rm -rf node_modules && rm -f yarn.lock && yarn",
     "pkg": "rollup -c"
   },
   "repository": {

@@ -24,6 +24,7 @@ type EquationEditorProps = {
   value: string;
   autoCommands: string;
   autoOperatorNames: string;
+  color?: string;
 };
 
 /**
@@ -79,7 +80,10 @@ class EquationEditor extends Component<EquationEditorProps> {
 
   render() {
     return (
-      <span ref={this.element} style={{ border: "0px", boxShadow: "None" }} />
+      <span
+        ref={this.element}
+        style={{ border: "0px", boxShadow: "None" }}
+      />
     );
   }
 }

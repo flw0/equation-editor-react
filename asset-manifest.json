@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/equation-editor-react/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/equation-editor-react/static/js/main.223393e2.chunk.js",
-    "main.js.map": "/equation-editor-react/static/js/main.223393e2.chunk.js.map",
-    "runtime-main.js": "/equation-editor-react/static/js/runtime-main.71b94d3e.js",
-    "runtime-main.js.map": "/equation-editor-react/static/js/runtime-main.71b94d3e.js.map",
-    "static/css/2.42f066dc.chunk.css": "/equation-editor-react/static/css/2.42f066dc.chunk.css",
-    "static/js/2.a647f8bd.chunk.js": "/equation-editor-react/static/js/2.a647f8bd.chunk.js",
-    "static/js/2.a647f8bd.chunk.js.map": "/equation-editor-react/static/js/2.a647f8bd.chunk.js.map",
+    "main.js": "/equation-editor-react/static/js/main.24c8f55a.chunk.js",
+    "main.js.map": "/equation-editor-react/static/js/main.24c8f55a.chunk.js.map",
+    "runtime-main.js": "/equation-editor-react/static/js/runtime-main.493ecb86.js",
+    "runtime-main.js.map": "/equation-editor-react/static/js/runtime-main.493ecb86.js.map",
+    "static/css/2.86a84a57.chunk.css": "/equation-editor-react/static/css/2.86a84a57.chunk.css",
+    "static/js/2.9a4c45c8.chunk.js": "/equation-editor-react/static/js/2.9a4c45c8.chunk.js",
+    "static/js/2.9a4c45c8.chunk.js.map": "/equation-editor-react/static/js/2.9a4c45c8.chunk.js.map",
     "index.html": "/equation-editor-react/index.html",
-    "precache-manifest.91966bfad809dbbec61cbfd57094080c.js": "/equation-editor-react/precache-manifest.91966bfad809dbbec61cbfd57094080c.js",
+    "precache-manifest.1278d954086686cc6ddac251f3af28ca.js": "/equation-editor-react/precache-manifest.1278d954086686cc6ddac251f3af28ca.js",
     "service-worker.js": "/equation-editor-react/service-worker.js",
-    "static/css/2.42f066dc.chunk.css.map": "/equation-editor-react/static/css/2.42f066dc.chunk.css.map",
+    "static/css/2.86a84a57.chunk.css.map": "/equation-editor-react/static/css/2.86a84a57.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/equation-editor-react/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.a647f8bd.chunk.js.LICENSE.txt": "/equation-editor-react/static/js/2.a647f8bd.chunk.js.LICENSE.txt",
+    "static/js/2.9a4c45c8.chunk.js.LICENSE.txt": "/equation-editor-react/static/js/2.9a4c45c8.chunk.js.LICENSE.txt",
     "static/media/mathquill.css": "/equation-editor-react/static/media/Symbola.e4ae9ff7.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.71b94d3e.js",
-    "static/css/2.42f066dc.chunk.css",
-    "static/js/2.a647f8bd.chunk.js",
+    "static/js/runtime-main.493ecb86.js",
+    "static/css/2.86a84a57.chunk.css",
+    "static/js/2.9a4c45c8.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.223393e2.chunk.js"
+    "static/js/main.24c8f55a.chunk.js"
   ]
 }

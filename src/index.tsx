@@ -22,7 +22,7 @@ const mathQuill = MathQuill.getInterface(2);
 type EquationEditorProps = {
   onChange(latex: string): void;
   value: string;
-  spaceBehavesLikeTab: boolean;
+  spaceBehavesLikeTab?: boolean;
   autoCommands: string;
   autoOperatorNames: string;
 };
@@ -31,7 +31,7 @@ type EquationEditorProps = {
  * @typedef {EquationEditorProps} props
  * @prop {Function} onChange Triggered when content of the equation editor changes
  * @prop {string} value Content of the equation handler
- * @prop {boolean} spaceBehavesLikeTab Whether spacebar should simulate tab behavior
+ * @prop {boolean}[false] spaceBehavesLikeTab Whether spacebar should simulate tab behavior
  * @prop {string} autoCommands List of commands for which you only have to type the name of the
  * command with a \ in front of it. Examples: pi theta rho sum
  * @prop {string} autoOperatorNames List of operators for which you only have to type the name of the
@@ -57,7 +57,13 @@ class EquationEditor extends Component<EquationEditorProps> {
   }
 
   componentDidMount() {
-    const { onChange, value,spaceBehavesLikeTab, autoCommands, autoOperatorNames } = this.props;
+    const {
+      onChange,
+      value,
+      spaceBehavesLikeTab,
+      autoCommands,
+      autoOperatorNames,
+    } = this.props;
 
     const config = {
       handlers: {
@@ -82,10 +88,7 @@ class EquationEditor extends Component<EquationEditorProps> {
 
   render() {
     return (
-      <span
-        ref={this.element}
-        style={{ border: "0px", boxShadow: "None" }}
-      />
+      <span ref={this.element} style={{ border: "0px", boxShadow: "None" }} />
     );
   }
 }

@@ -9,6 +9,7 @@
 /coverage
 
 # output
+/lib
 
 # misc
 .DS_Store

@@ -25,6 +25,7 @@ type EquationEditorProps = {
   spaceBehavesLikeTab?: boolean;
   autoCommands: string;
   autoOperatorNames: string;
+  onEnter?(): void;
 };
 
 /**
@@ -36,6 +37,7 @@ type EquationEditorProps = {
  * command with a \ in front of it. Examples: pi theta rho sum
  * @prop {string} autoOperatorNames List of operators for which you only have to type the name of the
  * operator with a \ in front of it. Examples: sin cos tan
+ * @prop {Function} onEnter Triggered when enter is pressed in the equation editor
  * @extends {Component<EquationEditorProps>}
  */
 class EquationEditor extends Component<EquationEditorProps> {
@@ -63,6 +65,7 @@ class EquationEditor extends Component<EquationEditorProps> {
       spaceBehavesLikeTab,
       autoCommands,
       autoOperatorNames,
+      onEnter,
     } = this.props;
 
     const config = {
@@ -76,6 +79,7 @@ class EquationEditor extends Component<EquationEditorProps> {
             onChange(this.mathField.latex());
           }
         },
+        enter: onEnter,
       },
       spaceBehavesLikeTab,
       autoCommands,

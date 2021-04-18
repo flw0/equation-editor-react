@@ -32,6 +32,7 @@ const Page = () => {
         onChange={setEquation}
         autoCommands="bar overline sqrt sum prod int alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omikron pi rho sigma tau upsilon phi chi psi omega Alpha Beta Gamma Aelta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omikron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega"
         autoOperatorNames="sin cos tan"
+        onEnter={() => window.alert("You pressed enter!")}
       />
       <p style={equationOutputStyle}>
         <code>{equation}</code>

@@ -1,6 +1,6 @@
 {
   "name": "equation-editor-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Equation editor based on Mathquill for React web apps",
   "main": "lib/index.js",
   "module": "lib/index.es.js",

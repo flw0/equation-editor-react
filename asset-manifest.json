@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/equation-editor-react/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/equation-editor-react/static/js/main.c661fc64.chunk.js",
-    "main.js.map": "/equation-editor-react/static/js/main.c661fc64.chunk.js.map",
+    "main.js": "/equation-editor-react/static/js/main.51cedf90.chunk.js",
+    "main.js.map": "/equation-editor-react/static/js/main.51cedf90.chunk.js.map",
     "runtime-main.js": "/equation-editor-react/static/js/runtime-main.493ecb86.js",
     "runtime-main.js.map": "/equation-editor-react/static/js/runtime-main.493ecb86.js.map",
     "static/css/2.86a84a57.chunk.css": "/equation-editor-react/static/css/2.86a84a57.chunk.css",
     "static/js/2.22337029.chunk.js": "/equation-editor-react/static/js/2.22337029.chunk.js",
     "static/js/2.22337029.chunk.js.map": "/equation-editor-react/static/js/2.22337029.chunk.js.map",
     "index.html": "/equation-editor-react/index.html",
-    "precache-manifest.ba173f27449e43a7e3e4423093413a65.js": "/equation-editor-react/precache-manifest.ba173f27449e43a7e3e4423093413a65.js",
+    "precache-manifest.620a41dbe3a040095b4b2ada3ba20555.js": "/equation-editor-react/precache-manifest.620a41dbe3a040095b4b2ada3ba20555.js",
     "service-worker.js": "/equation-editor-react/service-worker.js",
     "static/css/2.86a84a57.chunk.css.map": "/equation-editor-react/static/css/2.86a84a57.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/equation-editor-react/static/css/main.5ecd60fb.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.86a84a57.chunk.css",
     "static/js/2.22337029.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c661fc64.chunk.js"
+    "static/js/main.51cedf90.chunk.js"
   ]
 }

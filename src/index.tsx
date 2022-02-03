@@ -89,6 +89,10 @@ class EquationEditor extends Component<EquationEditorProps> {
     this.mathField = mathQuill.MathField(this.element.current, config);
     this.mathField.latex(value || "");
   }
+  
+  insert(input: string) {
+    this.mathField.write(input)
+  }
 
   render() {
     return (

@@ -1,17 +1,13 @@
-import React, { Component, createRef } from "react";
+import React, { useEffect, useRef } from "react";
 
-// Import JQuery, required for the functioning of the equation editor
 import $ from "jquery";
 
-// Import the styles from the Mathquill editor
 import "mathquill/build/mathquill.css";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 // @ts-ignore
 window.jQuery = $;
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-// @ts-ignore
 require("mathquill/build/mathquill");
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
@@ -40,43 +36,31 @@ type EquationEditorProps = {
  * @prop {Function} onEnter Triggered when enter is pressed in the equation editor
  * @extends {Component<EquationEditorProps>}
  */
-class EquationEditor extends Component<EquationEditorProps> {
-  element: any;
-  mathField: any;
-  ignoreEditEvents: number;
+const EquationEditor: React.FC<EquationEditorProps> = ({
+  onChange,
+  value,
+  spaceBehavesLikeTab,
+  autoCommands,
+  autoOperatorNames,
+  onEnter,
+}) => {
+  const element = useRef(null);
+  // @ts-ignore
+  let mathField = null;
+  let ignoreEditEvents = 2; // MathJax apparently fire 2 edit events on startup.
 
-  // Element needs to be in the class format and thus requires a constructor. The steps that are run
-  // in the constructor is to make sure that React can succesfully communicate with the equation
-  // editor.
-  constructor(props: EquationEditorProps) {
-    super(props);
-
-    this.element = createRef();
-    this.mathField = null;
-
-    // MathJax apparently fire 2 edit events on startup.
-    this.ignoreEditEvents = 2;
-  }
-
-  componentDidMount() {
-    const {
-      onChange,
-      value,
-      spaceBehavesLikeTab,
-      autoCommands,
-      autoOperatorNames,
-      onEnter,
-    } = this.props;
-
+  useEffect(() => {
     const config = {
       handlers: {
         edit: () => {
-          if (this.ignoreEditEvents > 0) {
-            this.ignoreEditEvents -= 1;
+          if (ignoreEditEvents > 0) {
+            ignoreEditEvents -= 1;
             return;
           }
-          if (this.mathField.latex() !== value) {
-            onChange(this.mathField.latex());
+          // @ts-ignore
+          if (mathField.latex() !== value) {
+            // @ts-ignore
+            onChange(mathField.latex());
           }
         },
         enter: onEnter,
@@ -86,15 +70,13 @@ class EquationEditor extends Component<EquationEditorProps> {
       autoOperatorNames,
     };
 
-    this.mathField = mathQuill.MathField(this.element.current, config);
-    this.mathField.latex(value || "");
-  }
+    mathField = mathQuill.MathField(element.current, config);
+    mathField.latex(value || "");
+  });
 
-  render() {
-    return (
-      <span ref={this.element} style={{ border: "0px", boxShadow: "None" }} />
-    );
-  }
+  return (
+      <span ref={element} style={{ border: "0px", boxShadow: "None" }} />
+  );
 }
 
 export default EquationEditor;
